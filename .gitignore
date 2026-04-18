@@ -1,0 +1,27 @@
+# Ignore all hidden/system files
+.*
+!.gitignore
+
+# Docker / system
+node_modules/
+.env
+*.log
+
+# Kubernetes / Minikube
+.minikube/
+.kube/
+
+# OS files
+*.swp
+*.tmp
+# binaries
+*.amd64
+minikube*
+
+# system
+.*
+!.gitignore
+
+# k8s
+.minikube/
+.kube/
