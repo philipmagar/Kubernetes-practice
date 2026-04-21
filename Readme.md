@@ -25,3 +25,19 @@
 - kubectl logs
 - kubectl port-forward
 - kubectl delete -f pod.yaml
+
+## Kubernetes Day 3 - Deployments
+
+- Learned why Pods are not used directly in production
+- Created Deployment to manage Pods
+- Ran multiple replicas of application
+- Tested auto-healing by deleting Pods
+- Scaled application using kubectl
+
+### Commands Used
+- kubectl apply -f deployment.yaml
+- kubectl get deployments
+- kubectl get pods
+- kubectl delete pod
+- kubectl scale deployment
+- kubectl delete -f deployment.yaml
