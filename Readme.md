@@ -41,3 +41,16 @@
 - kubectl delete pod
 - kubectl scale deployment
 - kubectl delete -f deployment.yaml
+
+## Kubernetes Day 4 - Services
+
+- Learned how to expose applications in Kubernetes
+- Created NodePort service
+- Connected service to deployment using labels
+- Accessed application via browser
+
+### Commands Used
+- kubectl apply -f service.yaml
+- kubectl get services
+- minikube ip
+- minikube service
