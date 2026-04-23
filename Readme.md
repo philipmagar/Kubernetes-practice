@@ -54,3 +54,20 @@
 - kubectl get services
 - minikube ip
 - minikube service
+
+## Kubernetes Day 5 - Deployment + Service
+
+- Combined Deployment and Service in single YAML file
+- Deployed multi-pod application
+- Exposed app using NodePort service
+- Tested scaling and auto-healing
+
+### Architecture
+User → Service → Deployment → Pods
+
+### Commands Used
+- kubectl apply -f app.yaml
+- kubectl get all
+- kubectl scale deployment
+- kubectl delete pod
+- minikube service
