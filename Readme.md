@@ -71,3 +71,19 @@ User → Service → Deployment → Pods
 - kubectl scale deployment
 - kubectl delete pod
 - minikube service
+
+## Kubernetes Day 6 - Ingress
+
+- Learned how to expose apps using Ingress
+- Enabled ingress controller in Minikube
+- Created domain-based routing
+- Mapped local domain using hosts file
+
+### Architecture
+User → Ingress → Service → Pods
+
+### Commands Used
+- minikube addons enable ingress
+- kubectl apply -f ingress.yaml
+- kubectl get pods -n ingress-nginx
+- minikube ip
